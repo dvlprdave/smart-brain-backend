@@ -8,12 +8,12 @@ const signin = require('./controllers/signin')
 const profile = require('./controllers/profile')
 const image = require('./controllers/image')
 const db = knex({
-  client: 'pg',
+  client: "pg",
   connection: {
-    host: '127.0.0.1',
-    user: 'david',
-    password: '',
-    database: 'smart-brain'
+    host: "postgresql-concentric-10418",
+    user: "david",
+    password: "",
+    database: "smart-brain"
   }
 });
 // Connects to Postgres database
